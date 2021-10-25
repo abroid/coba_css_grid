@@ -1,2 +1,2 @@
 # coba_css_grid
-This is my learning process to learn css grid.
+This is my learning progress to learn css grid.
