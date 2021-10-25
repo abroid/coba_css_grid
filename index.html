@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>This Is Indonesia</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <div class="flag">
+          <h2 class="heading">Welcome To Indonesia</h2>
+          <p class="sub-heading">Bhinneka Tunggal Ika</p>
+        </div>
+        <div class="views village">
+          <h4 class="label">VILLAGE</h4>
+        </div>
+        <div class="views city">
+          <h4 class="label">CITY</h4>
+        </div>
+      </header>
+      <nav class="menu">
+        <div class="menu-toggle">
+          <input type="checkbox" />
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="title">
+          <h1>Welcome To Indonesia</h1>
+        </div>
+        <ul class="menu-list">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Products</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Gallery</a></li>
+        </ul>
+      </nav>
+     	<section class="features">
+        <div class="items jakarta">
+          <div class="image-items">
+            <img src="img/jakarta.jpg" alt="jakarta" />
+            <div class="overlay">
+              <div class="image-title">Jakarta</div>
+            </div>
+          </div>
+          <h4>Jakarta</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id repellat corporis ipsam dolores officia porro!</p>
+        </div>
+        <div class="items bandung">
+          <div class="image-items">
+            <img src="img/bandung.jpg" alt="bandung" />
+            <div class="overlay">
+              <div class="image-title">Bandung</div>
+            </div>
+          </div>
+          <h4>Bandung</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id repellat corporis ipsam dolores officia porro!</p>
+        </div>
+        <div class="items bali">
+          <div class="image-items">
+            <img src="img/bali.jpg" alt="bali" />
+            <div class="overlay">
+              <div class="image-title">Bali</div>
+            </div>
+          </div>
+          <h4>Bali</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id repellat corporis ipsam dolores officia porro!</p>
+        </div>
+        <div class="items malang">
+          <div class="image-items">
+            <img src="img/malang.jpg" alt="malang" />
+            <div class="overlay">
+              <div class="image-title">Malang</div>
+            </div>
+          </div>
+          <h4>Malang</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id repellat corporis ipsam dolores officia porro!</p>
+        </div>
+      </section>
+    </div>
+    <script>
+      const menuToggle = document.querySelector(".menu-toggle input");
+      const nav = document.querySelector("nav ul");
+
+      menuToggle.addEventListener("click", () => {
+        nav.classList.toggle("slide");
+      });
+    </script>
+  </body>
+</html>
